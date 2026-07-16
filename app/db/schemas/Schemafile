@@ -1,0 +1,10 @@
+# Ridgepole Schemafile
+#
+# Active Storage tables are intentionally not managed here. Run Active Storage
+# migrations separately, or pass --ignore-tables '^active_storage_' to Ridgepole.
+
+require_relative "00_catalog_schema"
+require_relative "10_questions_schema"
+require_relative "20_solid_cache_schema"
+require_relative "21_solid_queue_schema"
+require_relative "22_solid_cable_schema"
