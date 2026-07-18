@@ -10,4 +10,3 @@ create_table "solid_cache_entries", force: :cascade do |t|
   t.index ["key_hash", "byte_size"], name: "index_solid_cache_entries_on_key_hash_and_byte_size"
   t.index ["key_hash"], name: "index_solid_cache_entries_on_key_hash", unique: true
 end
-
